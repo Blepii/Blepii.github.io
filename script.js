@@ -1,5 +1,5 @@
 const wrapper = document.querySelector(".wrapper");
-const question = document.querySelector("question");
+const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
@@ -18,7 +18,7 @@ noBtn.addEventListener("mouseover", () => {
     const randomX = Math.floor(Math.random() * maxX);
     const randomY = Math.floor(Math.random() * maxY);
 
-    noBtn.StyleMap.left = randomX + "px";
-    noBtn.StyleMap.top = randomY + "px";
+    noBtn.Style.left = randomX + "px";
+    noBtn.Style.top = randomY + "px";
 });
 
